@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JP Marketing</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        h1, h2, h3 {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .primary {
+            color: #FFC107;
+        }
+        .secondary {
+            color: #000000;
+        }
+        .accent {
+            color: #00BCD4;
+        }
+        .hero {
+            background: url('https://files.oaiusercontent.com/file-EDtkkh5j6cpE1MA67ziremIt?se=2024-07-08T16%3A00%3A11Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Df15f3f91-f4d3-4afe-bd29-76fab217a9cc.webp&sig=IJVIRJnJQZEa/iII9Pb%2Bk%2B3GzU2GALnT5MTFbjnKTtk%3D') no-repeat center center/cover;
+            padding: 5rem 1rem;
+            color: white;
+        }
+        .container {
+            padding: 2rem 1rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .icon {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <h1 class="secondary">JP Marketing</h1>
+    </header>
+
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>JP Marketing</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#about">Sobre Nós</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Sua agência de marketing digital</h2>
+            <p>Transformamos suas ideias em resultados concretos</p>
+            <a href="#contact" role="button" class="secondary">Entre em Contato</a>
+        </section>
+
+        <section id="services">
+            <hgroup>
+                <h2 class="primary">Serviços</h2>
+                <h3 class="secondary">O que oferecemos</h3>
+            </hgroup>
+            <div class="grid">
+                <article>
+                    <img src="https://files.oaiusercontent.com/file-yZSUlyeusUZKCYh06GSWcTnd?se=2024-07-08T16%3A00%3A11Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3De64b443a-55c4-4d97-a7de-eee5c15a22a1.webp&sig=GSF6fApy1ipiq%2BkgVUgtoa4TgQNxP8DUmyamNzJ6sPM%3D" alt="Gestão de Redes Sociais" class="icon">
+                    <h3>Gestão de Redes Sociais</h3>
+                    <p>Criamos e gerenciamos campanhas em diversas plataformas de redes sociais, aumentando o engajamento e a visibilidade da sua marca.</p>
+                    <p class="accent">Benefícios: Aumente seu alcance e conecte-se com seu público-alvo através de estratégias de conteúdo e engajamento.</p>
+                </article>
+                <article>
+                    <img src="https://files.oaiusercontent.com/file-BBdFjBYORhcW3efNo1K4kHCT?se=2024-07-08T16%3A00%3A11Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D8191a1c0-07f3-4f67-b621-47eaf298a5f4.webp&sig=dQNQAhGequuhASH0QqptJG4YZ2fAb1wZqoYcHYZ8yf8%3D" alt="SEO" class="icon">
+                    <h3>SEO (Otimização para Motores de Busca)</h3>
+                    <p>Realizamos pesquisas de palavras-chave, otimizamos seu conteúdo e melhoramos seu ranking nos motores de busca para atrair mais tráfego orgânico.</p>
+                    <p class="accent">Benefícios: Melhore a visibilidade do seu site e atraia visitantes qualificados.</p>
+                </article>
+                <article>
+                    <img src="https://files.oaiusercontent.com/file-wGxgYthFyZqcSjdKhVpo8Dtz?se=2024-07-08T16%3A00%3A11Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D627c4829-d089-4a23-83ee-4fe3bfe936f7.webp&sig=u6up4n0zoN4/KyCNpEqAF4TqaCpxL2tBSbbnw1ye9vo%3D" alt="Publicidade Online" class="icon">
+                    <h3>Publicidade Online</h3>
+                    <p>Desenvolvemos e gerenciamos campanhas de anúncios pagos no Google Ads, Facebook Ads, LinkedIn Ads e outras plataformas.</p>
+                    <p class="accent">Benefícios: Alcance seu público-alvo com precisão e maximize o retorno sobre o investimento.</p>
+                </article>
+                <article>
+                    <img src="https://files.oaiusercontent.com/file-KnWslAC0M4K6l2Vs7jGaAnQI?se=2024-07-08T16%3A00%3A11Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D87b794e7-b4af-42a4-a78f-fb01f368745f.webp&sig=117dbeNepuGhK10UfT6vsZZHcLG4x1ABFcYIMMCuE0Q%3D" alt="Criação de Conteúdo" class="icon">
+                    <h3>Criação de Conteúdo</h3>
+                    <p>Produzimos conteúdo relevante e envolvente para blogs, redes sociais, e-mails e outros canais de comunicação.</p>
+                    <p class="accent">Benefícios: Engaje seu público e fortaleça a identidade da sua marca com conteúdo de alta qualidade.</p>
+                </article>
+                <article>
+                    <img src="https://files.oaiusercontent.com/file-TP4Oj2MQqz1wpYhRfsGFZbbU?se=2024-07-08T16%3A00%3A11Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dcfcbbf4f-35e8-47a3-a39b-27d071c62a89.webp&sig=k/ZDOG/Ro5gDRLZ4k5xSzDmjhtK5IjoINPM1DUx/DuE%3D" alt="Análise de Dados" class="icon">
+                    <h3>Análise de Dados</h3>
+                    <p>Coletamos e analisamos dados de desempenho de suas campanhas de marketing, fornecendo insights valiosos para orientar decisões estratégicas e otimizar resultados.</p>
+                    <p class="accent">Benefícios: Tome decisões informadas e melhore continuamente suas estratégias de marketing.</p>
+                </article>
+                <article>
+                    <img src="https://files.oaiusercontent.com/file-wzt
+                    <img src="https://files.oaiusercontent.com/file-wztCzeioJv1UsP7vw8DZ7K9W?se=2024-07-08T16%3A00%3A11Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dbdc25a9a-09cb-4e4c-bd78-5f680e2a453d.webp&sig=GZTbLTENRxSbm2KmbCIYmETQscoM6HhLTbk1fb8riFg%3D" alt="Gestão de Automação" class="icon">
+                    <h3>Gestão de Automação</h3>
+                    <p>Implementamos soluções de automação de marketing para economizar tempo e aumentar a eficiência de suas campanhas.</p>
+                    <p class="accent">Benefícios: Simplifique suas operações de marketing e alcance resultados mais consistentes.</p>
+                </article>
+                <article>
+                    <img src="https://files.oaiusercontent.com/file-QI72t66chRrRJffWAtHFc77i?se=2024-07-08T16%3A00%3A11Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D9f5e60e6-2bbf-4515-b6c2-f1cda93dbdbb.webp&sig=uq05/dI11g7XtPVjZ2PhVrxjScHvHi43VWwzWzPoKqA%3D" alt="Assistentes Digitais" class="icon">
+                    <h3>Assistentes Digitais</h3>
+                    <p>Criamos assistentes digitais personalizados utilizando a tecnologia Chat GPT, ajudando a interagir com seus clientes, fornecer suporte e até mesmo gerar leads.</p>
+                    <p class="accent">Benefícios: Melhore a experiência do usuário e aumente a eficiência do atendimento ao cliente.</p>
+                </article>
+            </div>
+        </section>
+
+        <section aria-label="Depoimentos">
+            <div class="container">
+                <hgroup>
+                    <h2 class="primary">Depoimentos</h2>
+                    <h3 class="secondary">O que nossos clientes dizem</h3>
+                </hgroup>
+                <blockquote>
+                    <p>"A JP Marketing transformou nossa presença digital. Estamos mais engajados com nosso público e nossas vendas aumentaram significativamente."</p>
+                    <footer>— Cliente Satisfeito</footer>
+                </blockquote>
+                <blockquote>
+                    <p>"Excelente equipe, estratégias inovadoras e resultados mensuráveis. Recomendo a JP Marketing a todos que buscam crescer no mundo digital."</p>
+                    <footer>— Outro Cliente Satisfeito</footer>
+                </blockquote>
+            </div>
+        </section>
+
+        <section aria-label="Diferenciais da JP Marketing">
+            <div class="container">
+                <hgroup>
+                    <h2 class="primary">Diferenciais</h2>
+                    <h3 class="secondary">Por que escolher a JP Marketing?</h3>
+                </hgroup>
+                <ul>
+                    <li>Abordagem Personalizada</li>
+                    <li>Equipe Experiente</li>
+                    <li>Resultados Mensuráveis</li>
+                    <li>Ferramentas de Ponta</li>
+                </ul>
+            </div>
+        </section>
+
+        <section aria-label="Sobre Nós" id="about">
+            <div class="container">
+                <hgroup>
+                    <h2 class="primary">Sobre Nós</h2>
+                    <h3 class="secondary">Nossa História</h3>
+                </hgroup>
+                <p>A JP Marketing foi fundada por Jean Pierre em 2021. Jean Pierre, um profissional apaixonado por marketing digital, viu uma oportunidade de ajudar empresas a alcançarem seu verdadeiro potencial online. Com uma formação robusta em marketing e uma vasta experiência em diversas indústrias, ele decidiu criar uma agência que não apenas oferecesse serviços de marketing digital, mas que também se tornasse um verdadeiro parceiro para seus clientes.</p>
+                <p>Nos primeiros anos, a JP Marketing começou modestamente, atendendo pequenas e médias empresas locais. Com uma abordagem centrada no cliente e um compromisso inabalável com a qualidade, a agência rapidamente se destacou no mercado. As estratégias inovadoras e a dedicação da equipe começaram a atrair atenção, resultando em um crescimento constante.</p>
+                <p>À medida que a reputação da JP Marketing crescia, também crescia sua base de clientes. A empresa começou a expandir seus serviços para incluir SEO, publicidade online, criação de conteúdo, análise de dados, gestão de automação e assistentes digitais. Com a expansão dos serviços, a equipe também cresceu, incorporando talentos diversos e especializados em várias áreas do marketing digital.</p>
+                <p>A JP Marketing sempre acreditou na importância da inovação. Foi uma das primeiras agências a adotar a tecnologia de assistentes digitais utilizando Chat GPT, oferecendo soluções de atendimento ao cliente e geração de leads altamente eficientes. A empresa também se destacou pela implementação de soluções de automação de marketing, que ajudaram os clientes a otimizar suas operações e alcançar resultados mais consistentes.</p>
+                <p>Ao longo dos anos, a JP Marketing formou parcerias estratégicas com diversas empresas e plataformas tecnológicas. Essas parcerias permitiram à agência oferecer serviços ainda mais avançados e personalizados, fortalecendo sua posição como líder no setor de marketing digital.</p>
+                <p>Hoje, a JP Marketing é reconhecida como uma das principais agências de marketing digital, servindo clientes de diversos setores e tamanhos. Com uma equipe talentosa e dedicada, a empresa continua a crescer e a evoluir, sempre focada em ajudar seus clientes a alcançar seus objetivos de marketing e aumentar sua presença digital.</p>
+            </div>
+        </section>
+
+        <section aria-label="Contato" id="contact">
+            <div class="container">
+                <hgroup>
+                    <h2 class="primary">Contato</h2>
+                    <h3 class="secondary">Fale Conosco</h3>
+                </hgroup>
+                <form>
+                    <input type="text" id="name" name="name" placeholder="Seu Nome" aria-label="Seu Nome" required>
+                    <input type="email" id="email" name="email" placeholder="Seu Email" aria-label="Seu Email" required>
+                    <textarea id="message" name="message" placeholder="Sua Mensagem" aria-label="Sua Mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+                <p>Email: contato@jpmarketing.com</p>
+                <p>Telefone: (11) 1234-5678</p>
+                <p>Endereço: Rua Exemplo, 123, São Paulo, SP</p>
+            </div>
+        </section>
+
+        <section aria-label="Área do Cliente">
+            <div class="container">
+                <hgroup>
+                    <h2 class="primary">Área do Cliente</h2>
+                    <h3 class="secondary">Acesse sua Conta</h3>
+                </hgroup>
+                <form>
+                    <input type="email" id="client-email" name="client-email" placeholder="Seu Email" aria-label="Seu Email" required>
+                    <input type="password" id="client-password" name="client-password" placeholder="Sua Senha" aria-label="Sua Senha" required>
+                    <button type="submit">Entrar</button>
+                </form>
+            </div>
+        </section>
+
+        <section aria-label="Agendamento">
+            <div class="container">
+                <hgroup>
+                    <h2 class="primary">Agendamento</h3>
+                    <h3 class="secondary">Marque uma Reunião</h3>
+                </hgroup>
+                <form>
+                    <input type="datetime-local" id="meeting-date" name="meeting-date" aria-label="Data e Hora" required>
+                    <button type="submit">Agendar</button>
+                </form>
+            </div>
+        </section>
+
+        <section aria-label="Políticas da Empresa">
+            <div class="container">
+                <hgroup>
+                    <h2 class="primary">Políticas da Empresa</h2>
+                    <h3 class="secondary">Conheça Nossas Políticas</h3>
+                </hgroup>
+                <ul>
+                    <li><a href="#privacy-policy">Política de Privacidade</a></li>
+                    <li><a href="#terms-of-service">Termos de Serviço</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container">
+        <small>
+            <a href="#">Home</a> • 
+            <a href="#services">Serviços</a> • 
+            <a href="#about">Sobre Nós</a> • 
+            <a href="#contact">Contato</a> • 
+            <a href="#privacy-policy">Política de Privacidade</a> • 
+            <a href="#terms-of-service">Termos de Serviço</a>
+        </small>
+        <ul>
+            <li
+            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+        </ul>
+        <p>&copy; 2024 JP Marketing. Todos os direitos reservados.</p>
+        <form>
+            <label for="newsletter">Inscreva-se na nossa newsletter</label>
+            <input type="email" id="newsletter" name="newsletter" placeholder="Seu Email" aria-label="Seu Email" required>
+            <button type="submit">Inscrever-se</button>
+        </form>
+    </footer>
+</body>
+</html>
