@@ -1,0 +1,5 @@
+node_modules
+teleprompter.db
+dist
+npm-debug.log*
+.DS_Store
